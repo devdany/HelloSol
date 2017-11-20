@@ -15,4 +15,9 @@ public class HomeController {
     public String simpleStorage(){
         return "/simpleStorageDapp";
     }
+
+    @GetMapping("/test")
+    public String test(){
+        return "/test";
+    }
 }
